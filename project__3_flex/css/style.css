@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav{
+    margin-bottom: 30px;
+}
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+li{
+    display: inline-block;
+    margin: 0 15px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #808080;
+}
+img{
+    /* width: 200px;
+    border: 1px solid #000;
+    border-radius: 100px; */
+    margin-bottom: 33px;
+}
+h1{
+    color: #000000;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+h2{
+    color: #808080;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 18px;
+    margin-bottom: 28px;
+}
+div{
+    margin-top: 15px;
+}
+input{
+    color: #ffffff;
+    padding: 11px 17px;
+    text-transform: uppercase;
+}
+textarea{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 11px 17px;
+    height: 138px;
+}
+button{
+    border-radius: 11px;
+    background-color: rgb(58, 65, 65);
+    width: 165px;
+    height: 57px;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    font-size: 18px;
+    color: #a9a9a9;
+
+}
+.header{
+    margin-top: 26px;
+}
+.content{
+    background-color: #000000;
+    padding-top: 40px;
+}
+.forms{
+    width: 400px;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #d0d1d1;
+}
+.footer{
+    color: #808080;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 33px 0;
+}
+::placeholder{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+.columns{
+    background-color: #000000;
+    border-bottom: 1px solid #808080;
+    padding-top: 30px;
+}
+.columns__inner{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+}
+.columns__first{
+    max-width: 300px;
+}
+.columns__second{
+    max-width: 600px;
+
+}
+.columns__first h3{
+    color: #808080;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.columns__first p{
+    text-transform: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: justify;
+}
